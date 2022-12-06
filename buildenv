@@ -9,7 +9,7 @@ export ZOPEN_EXTRA_CFLAGS='-qnocsect'
 export ZOPEN_BOOTSTRAP=skip
 export ZOPEN_CONFIGURE=skip
 export ZOPEN_INSTALL_OPTS="install POSIX_ENV=Yes prefix=\${ZOPEN_INSTALL_DIR}"   
-#1
+#12
 export ZOPEN_EXTRA_CPPFLAGS='-I../lib/'
 rm -f v1.9.3
 ln -s lz4-1.9.3 v1.9.3
